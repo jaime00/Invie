@@ -1,0 +1,65 @@
+/* h1 {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	/* font: bold 20px sans-serif; */
+
+header, section, nav, article {
+	/* border: 1px solid black; */
+	display: block;
+}
+ 
+body {
+	text-align: center;
+}
+.agrupar {
+	width: 80%;
+	margin: 10px auto;
+	padding: 10px
+}
+div {
+	border: 1px solid black;
+	background: #ccc;
+}
+.cabecera {
+	background: #BFBFBF;
+	border: 1px solid #999;
+	padding: 20px;
+}
+.menu {
+	background: darkgray;
+	padding: .5px .5px;
+	text-align: center;
+}
+
+.menu li {
+	list-style: none;
+	padding: 2.5px;
+	font: bold 14px monospace;
+	display: inline-block;
+}
+
+.guitarras {
+	margin: 20px;
+	padding: 20px;
+}
+
+article {
+	background: gray;
+	border: 1px solid #999; 
+	margin: 10px;
+}
+
+img {
+	width: 180px;
+	display: inline;
+	margin: 10px auto;
+}
+
+.portada {
+	background: #ccc;	
+}
+ol li {
+	list-style: none;
+	font: bold 1em;
+}

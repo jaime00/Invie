@@ -1,0 +1,100 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+  <title>Precios de tus mejores guitarras!!</title>
+  <meta charset="utf-8"/>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Allerta" rel="stylesheet">
+</head>	
+<body>
+  <div class="background">
+    <header id="header" class="cabecera contenedor"> <!-- header-->  
+    <figure class="logotipo">
+      <img src="images/invie.png" alt="Logotipo de Invie" width="186" height="60">
+    </figure>
+     <nav class="menu">  
+      <ul>
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="index.html#guitarras">Guitarras</a></li>
+        <li><a href="precios.html">Precios</a></li>
+      </ul>
+    </nav>
+  </header>
+  </div>
+  <section class="tabla">
+  <div class="contenedor">
+     <table>
+       <thead>
+         <tr>
+           <th>Modelo</th>
+           <th>Precio</th>
+           <th>Descripción</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>Invie Classic</td>
+           <td>100000</td>
+           <td>Una Guitarra muy Pro</td>
+         </tr>
+         <tr>
+           <td>Invie Classic</td>
+           <td>100000</td>
+           <td>Una Guitarra muy Pro</td>
+         </tr>
+         <tr>
+           <td>Invie Classic</td>
+           <td>100000</td>
+           <td>Una Guitarra muy Pro</td>
+         </tr>
+       </tbody>
+     </table>
+     </div>
+  </section>
+  <footer class="footer">
+     <div class="contenedor">
+      <div class="contacto">
+        <img src="images/invie-white.png" alt="Logotipo de Invie">
+        <a href="tel:+573015834945" class="telefono"><strong>Telefono </strong><span>3015834945</span></a>
+        <a href="mailto:Elpaisasucio00@gmail.com"><strong>E-mail </strong><span>Elpaisasucio00@gmail.com</span></a>
+      </div>
+      <form class="formulario">
+        <div class="col1">
+          <label for="nombre">Nombre</label>
+          <input type="text" required placeholder="Ingrese nombre" id="nombre" name="nombre"/>
+          <label for="E-mail">E-mail</label>
+          <input type="email" required placeholder="Ingrese E-mail" id="E-mail" name="email"/>
+          <div class="sexo">
+              <label for="mujer">
+              <input type="radio" checked name="sexo" id="mujer" name="sexo" value="mujer"/> mujer
+              </label> 
+              <label for="hombre">
+              <input type="radio" name="sexo" id="hombre" name="sexo" value="hombre"/> Hombre
+            </label>          
+          </div>
+          <div class="intereses">
+            <label for="cotizacion">
+              <input type="checkbox" checked name="intereses" id="cotizacion" value="cotizacion">Cotización
+            </label>
+            <label for="reclamos">
+              <input type="checkbox" name="intereses" id="reclamos" value="reclamos">Reclamos
+            </label>
+            <label for="comentarios">
+              <input type="checkbox" name="intereses" id="comentarios" value="comentarios">Comentarios
+            </label>
+            <label for="otros">
+              <input type="checkbox" name="intereses" id="otros" value="otros">Otros
+            </label>
+          </div>
+        </div>
+         <div class="col2">
+          <label for="comentarios" class="">Comentarios</label>
+          <textarea name="comentarios" id="comentarios" cols="25" rows="6"></textarea>
+          <input type="submit" value="Enviar" class="button"/>
+        </div>
+      </form> 
+      </div>
+    </footer>
+</body>
+</html>
